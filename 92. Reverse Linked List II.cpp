@@ -12,6 +12,7 @@ struct ListNode {
 };
 // reverse front N linked list
 ListNode *succussor = nullptr;
+
 ListNode *reverseN(ListNode *head,int n){
     if (n==1){
         succussor = head->next;
